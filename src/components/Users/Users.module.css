@@ -1,0 +1,23 @@
+.userPhoto img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 1fr;
+  grid-template-areas:
+    "pp pd";
+
+}
+
+.selectedPage {
+  font-weight: bold;
+}
+
+.page {
+  padding-right: 10px;
+}

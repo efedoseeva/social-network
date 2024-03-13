@@ -1,0 +1,24 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogItems {
+    padding: 10px;
+}
+
+.dialog {}
+
+.messages {
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+li:nth-child(even) {
+    margin-left: 300px;
+}
+
+.active {
+    color: gold;
+}
